@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Scraper</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Amazon Product Scraper</h1>
+      <div class="search-container">
+        <input
+          type="text"
+          id="keyword-input"
+          placeholder="Enter search keyword (e.g., 'laptop')"
+        />
+        <button id="scrape-button">Scrape</button>
+      </div>
+      <div id="loading" class="hidden">Loading...</div>
+      <div id="results-container"></div>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
