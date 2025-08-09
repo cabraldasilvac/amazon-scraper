@@ -2,13 +2,15 @@
 
 This project is a simple web application that scrapes product listings from the first page of Amazon search results for a given keyword. It consists of a backend API built with Bun, Express, and JSDOM, and a frontend built with Vanilla JavaScript, HTML, and CSS using Vite.
 
-## Features
+## 📌 Features
 
 - **Backend API:** An endpoint `/api/scrape` that takes a `keyword` and returns a JSON array of product details.
 - **Frontend:** A user-friendly interface to input a keyword, initiate the scraping, and display the results.
 - **Error Handling:** Graceful error handling on both the server and client sides.
 
-## Project Structure
+## 🚧 Project under development
+
+## 🚀 Project Structure
 
 amazon-scraper
 /backend
@@ -23,7 +25,7 @@ package.json
 vite.config.js
 README.md
 
-## Setup and Running Instructions
+## ⚙️🔥 Setup and Running Instructions
 
 ### Prerequisites
 
@@ -71,7 +73,7 @@ README.md
 
 ---
 
-### Considerations
+### 💡 Considerations
 
 - **Amazon's Anti-Scraping Measures:** Be aware that Amazon may block frequent scraping requests. For a production-level application, you would need to use a proxy service, handle CAPTCHAs, or use a dedicated scraping API. This script is intended for educational purposes and light usage.
 - **Selector Changes:** Amazon's HTML structure can change at any time. The CSS selectors used in `backend/index.ts` (`.s-result-item`, `h2 a span`, etc.) may become outdated, requiring updates to the code.
