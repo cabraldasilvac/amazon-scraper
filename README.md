@@ -25,7 +25,7 @@ package.json
 vite.config.js
 README.md
 
-## ⚙️🔥 Setup and Running Instructions
+## ⚙️ Setup and Running Instructions
 
 ### Prerequisites
 
